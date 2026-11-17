@@ -1,0 +1,10 @@
+{
+  "required": [
+    "docker_cli",
+    "docker_daemon",
+    "compose",
+    "act",
+    "dotnet"
+  ],
+  "mode": "read-only"
+}

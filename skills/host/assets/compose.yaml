@@ -1,0 +1,12 @@
+services:
+  ollama:
+    image: "${OLLAMA_IMAGE:?Set a reviewed Ollama image tag or digest}"
+    ports:
+      - "127.0.0.1:11434:11434"
+    environment:
+      OLLAMA_CONTEXT_LENGTH: "16384"
+      OLLAMA_FLASH_ATTENTION: "0"
+    volumes:
+      - ollama-data:/root/.ollama
+volumes:
+  ollama-data: {}
