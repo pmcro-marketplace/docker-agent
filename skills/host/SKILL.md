@@ -1,6 +1,6 @@
 ---
 name: host
-description: Prepare a local Ollama container and MAF-native ProjectName host integration plan. Use for PMCR-O local model bootstrap, not deployment or live agent execution.
+description: Prepare a local Ollama container and MAF-native ProjectName host integration plan. USE FOR bounded local-model/bootstrap planning after doctor passes. DO NOT USE FOR deployment, live agent execution, destructive Docker mutation, or claiming full MAF/AGT integration without target-host proof.
 ---
 # Docker Host
 
