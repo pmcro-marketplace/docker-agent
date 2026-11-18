@@ -1,6 +1,6 @@
 ---
 name: doctor
-description: Check Docker CLI, daemon, Compose, act and .NET availability on an authorized local host without installing or starting software.
+description: Check Docker CLI, daemon, Compose, act and .NET availability on an authorized local host without installing or starting software. USE FOR read-only Docker/host readiness checks before setup. DO NOT USE FOR installation, daemon startup, container mutation, pruning, or PMCR-O host execution; use host or an explicitly authorized runtime capability.
 ---
 # Docker Doctor
 
