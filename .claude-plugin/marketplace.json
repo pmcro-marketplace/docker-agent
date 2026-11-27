@@ -1,0 +1,13 @@
+{
+  "name": "docker-agent",
+  "owner": {
+    "name": "PMCR-O Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "docker",
+      "source": "./plugins/docker",
+      "description": "Docker host inspection and PMCR-O local model bootstrap planning under the shared invocation contract."
+    }
+  ]
+}

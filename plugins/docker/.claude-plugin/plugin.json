@@ -1,0 +1,8 @@
+{
+  "name": "docker",
+  "version": "0.2.3",
+  "description": "Docker host inspection and PMCR-O local model bootstrap planning under the shared invocation contract.",
+  "author": {
+    "name": "Planner Agent"
+  }
+}
