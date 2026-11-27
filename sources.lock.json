@@ -1,0 +1,24 @@
+{
+  "docker": {
+    "version": "0.2.3",
+    "skills": [
+      "doctor",
+      "host"
+    ],
+    "sha256": {
+      ".claude-plugin/plugin.json": "d9c85c7087a3a3bad1ce454b6bbe70cc4f5fa24bafb4e76ecac27dbbf6698b91",
+      ".codex-plugin/plugin.json": "cd0d1cda8a53de3d7d9df7c2ebe9d3c80eb9610f3e6b174ceb27f0126088271d",
+      "INVOCATION.md": "aa02aa5e2d3c5fb628e7cda6c61da14d2cf65433aecec819dca0bb157b150404",
+      "plugin.json": "9ecb0becdcdfbb64eeef27548c4e74949eb1ed11f09df9b57e24416f7ce839f1",
+      "README.md": "0ee614ec70992eb21f07efd25199b118a5a5dac2eac57ead8c7c31cac297ef00",
+      "skills/doctor/assets/readiness.json": "73c28a69e64223c0c87c88ca24cd935fe1d4b3484240305695c9286f086e3081",
+      "skills/doctor/references/host.md": "60d9d2464ed6f78a5564aaab7f0269b0b4fe0c2e7d7ecd81e37fc2d07b6c66c1",
+      "skills/doctor/scripts/doctor.py": "ee4e88d6d8095c2326485a0ed133049d5d962834732eda54b0e5a07e201f6663",
+      "skills/doctor/SKILL.md": "f31e55e2bf7583f266f2822cc43ac3816b240a7e20f758b8c34e58093783a434",
+      "skills/host/assets/compose.yaml": "0724e4d82bbd1938fb5f4a4e6dda44eed0f188a8499c8d383948a99aac0587ca",
+      "skills/host/references/topology.md": "fa56eaa539982c834d4b6d2f608b410972d1cc262609664e77dc3bd85867bb64",
+      "skills/host/scripts/validate.py": "02e52cd01f442c2744c994fcc6cf77b43cb0c1371186edf79745d128ea1eadca",
+      "skills/host/SKILL.md": "a7a138712d47e09e463843bd201e219a7e2bdbe94ada145d6e15e886ddc8feeb"
+    }
+  }
+}

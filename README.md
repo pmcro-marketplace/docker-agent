@@ -1,7 +1,11 @@
-# Docker Agent
+﻿# docker-agent
 
-Canonical plugin: `docker`. Human handle: `@docker-agent`.
+PMCRO marketplace in the dotnet/skills layout.
 
-Docker host inspection and PMCR-O local model bootstrap planning under the shared invocation contract.
+- plugins/<plugin>/plugin.json, .claude-plugin/plugin.json, .codex-plugin/plugin.json
+- plugins/<plugin>/skills/<skill>/SKILL.md (+ scripts/, references/, assets/)
+- tests/<plugin>/<skill>/eval.yaml
+- marketplace manifests: .github/plugin, .claude-plugin, .cursor-plugin, .agents/plugins
 
-The package follows the invocation contract in `INVOCATION.md`. Legacy packages are not retired by installing this canonical package.
+Install: /plugin marketplace add <org>/docker-agent
+
